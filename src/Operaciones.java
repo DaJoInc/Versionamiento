@@ -3,16 +3,26 @@ import java.util.Scanner;
 public class Operaciones {
 
 	public static void main(String[] args) {
-		int suma =0;
-		 System.out.print("Ingrese numero A::");
-			Scanner A = new Scanner(System.in);
-			 int a = A.nextInt();
-			 System.out.print("Ingrese numero B::");
-				Scanner B = new Scanner(System.in);
-				 int b = B.nextInt();
-				 suma = a+b;
-				 System.out.println("Total::"+suma);
-				 
+	
+		
+		
+		//RESTA
+		System.out.println("Digite 1 si desea hacer una resta");
+		Scanner localele = new Scanner(System.in);
+				int l = localele.nextInt();
+		
+		do {		
+		if (l==1) {
+			Resta JResta = new Resta();
+			JResta.restas();
+		}
+		else {
+			System.out.println("Su elección no está disponible");
+		}
+		} while(l!=1);
+		
+	
+		
 	}
 
 }
