@@ -2,15 +2,16 @@ package com.ownk.deivid;
 import java.util.Scanner;
 
 public class ProcesadorElegir {
-	public void Elegir () {
-		String txt; 
-		System.out.print("Ingrese numero ::");
-		Scanner A = new Scanner(System.in);
-		int a = A.nextInt();
-		if (a==5) {
+	public String txt;
+	public void elegir () {
+		
+		System.out.print("Ingrese numero :");
+		Scanner eleccion = new Scanner(System.in);
+		int eleccion_operacion = eleccion.nextInt();
+		if (eleccion_operacion==5) {
 			System.exit(5);
 		} else {
-			switch(a) {
+			switch(eleccion_operacion) {
 			case 1: ;
 			System.out.print("SUMA \n");
 			ProcesadorSuma procesadorSuma = new ProcesadorSuma();
@@ -18,8 +19,8 @@ public class ProcesadorElegir {
 			break;
 			case 2: ;
 			System.out.print("RESTA \n");
-			Resta restica = new Resta();
-			restica.restas();
+			ProcesadorResta resta = new ProcesadorResta();
+			resta.resta();
 			break;
 			case 3: ;
 			System.out.print("MULTIPLICACIÓN \n");
@@ -28,8 +29,8 @@ public class ProcesadorElegir {
 			break;
 			case 4: ;
 			System.out.print("Division \n");
-			Division divide = new Division();
-			divide.Divi();
+			ProcesadorDivision division = new ProcesadorDivision();
+			division.division();
 			break;
 			default: txt= "Invalido";
 			return ;
