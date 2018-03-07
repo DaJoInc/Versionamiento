@@ -2,7 +2,7 @@ package com.ownk.deivid;
 import java.util.Scanner;
 
 public class ProcesadorElegir {
-	public void Elegir () {
+	public void elegir () {
 		String txt; 
 		System.out.print("Ingrese numero ::");
 		Scanner A = new Scanner(System.in);

@@ -13,7 +13,7 @@ public class Operaciones {
 	System.out.println("Presione 5 salir");
 	 
 	 ProcesadorElegir procesadorElegir = new ProcesadorElegir();
-	 procesadorElegir.Elegir();
+	 procesadorElegir.elegir();
 	
 	 System.exit(5);
 	
