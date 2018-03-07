@@ -10,13 +10,12 @@ public class Operaciones {
 	System.out.println("Presione 2 para hacer resta de 2 numeros");
 	System.out.println("Presione 3 para hacer multiplicación de 2 numeros");
 	System.out.println("Presione 4 para hacer división de 2 numeros");
-
 	System.out.println("Presione 5 salir");
-
+	 
 	 ProcesadorElegir procesadorElegir = new ProcesadorElegir();
 	 procesadorElegir.Elegir();
 	
-	 System.exit(3);
+	 System.exit(5);
 	
 
 }
