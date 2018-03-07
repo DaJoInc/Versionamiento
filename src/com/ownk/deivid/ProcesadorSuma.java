@@ -1,4 +1,4 @@
-package com.ownk.joan;
+package com.ownk.deivid;
 import java.util.Scanner;
 
 public class ProcesadorSuma {
