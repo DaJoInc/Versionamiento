@@ -7,7 +7,7 @@ public class ProcesadorResta {
 
 
 		int restas;
-		System.out.println("Digite Numero uno: ");
+		System.out.println("Digite Numero uno:  ");
 		Scanner local = new Scanner(System.in);
 		int locals = local.nextInt();
 		System.out.println("Digite Numero dos: ");
