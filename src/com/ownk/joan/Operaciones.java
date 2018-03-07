@@ -1,5 +1,4 @@
 package com.ownk.joan;
-import java.util.Scanner;
 
 public class Operaciones {
 
