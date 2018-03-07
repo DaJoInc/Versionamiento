@@ -9,11 +9,15 @@ public void Elegir () {
 		 int a = A.nextInt();
 		  switch(a) {
 		  case 1: ;
-	  System.out.print("SUMA");
+	  System.out.print("SUMA \n");
 			 ProcesadorSuma procesadorSuma = new ProcesadorSuma();
 			 procesadorSuma.suma();
           break;
- 
+		  case 2: ;
+		  System.out.print("RESTA \n");
+				 Resta restica = new Resta();
+				 restica.restas();
+	          break;
  default: txt= "Invalido";
           break;
 		  }
