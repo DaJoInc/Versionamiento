@@ -2,8 +2,8 @@
 package com.ownk.deivid;
 import java.util.Scanner;
 
-public class Resta {
-	public void restas() {
+public class ProcesadorResta {
+	public void resta() {
 
 
 		int restas;
