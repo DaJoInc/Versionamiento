@@ -2,11 +2,10 @@ package com.ownk.deivid;
 import java.util.Scanner;
 
 public class ProcesadorSuma {
-	public  void suma() {
-
+public  void suma() {
+		
 		int suma =0;
-
-		 System.out.print("Ingrese numero A::A");
+		 System.out.print("Ingrese numero A::");
 			Scanner A = new Scanner(System.in);
 			 int a = A.nextInt();
 			 System.out.print("Ingrese numero B::");
@@ -15,5 +14,6 @@ public class ProcesadorSuma {
 				 suma = a+b;
 				 System.out.println("Total::"+suma);
 				 
+		
 	}
 }
