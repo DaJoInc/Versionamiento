@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ProcesadorElegir {
 	public void elegir () {
 		String txt; 
-		System.out.print("Ingrese numero ::");
+		System.out.print("Ingrese numero :");
 		Scanner A = new Scanner(System.in);
 		int a = A.nextInt();
 		if (a==5) {
