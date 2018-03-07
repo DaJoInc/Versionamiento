@@ -6,12 +6,12 @@ public class ProcesadorSuma {
 
 		int suma =0;
 		System.out.print("Ingrese numero A::");
-		Scanner A = new Scanner(System.in);
-		int a = A.nextInt();
+		Scanner primer_numero = new Scanner(System.in);
+		int numeroa = primer_numero.nextInt();
 		System.out.print("Ingrese numero B::");
-		Scanner B = new Scanner(System.in);
-		int b = B.nextInt();
-		suma = a+b;
+		Scanner segundo_numero = new Scanner(System.in);
+		int numerob = segundo_numero.nextInt();
+		suma = numeroa+numerob;
 		System.out.println("Total::"+suma);
 
 
