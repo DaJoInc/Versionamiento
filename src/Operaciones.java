@@ -14,4 +14,5 @@ public class Operaciones {
 				 System.out.println("Total::"+suma);
 				 
 	}
+
 }
