@@ -2,8 +2,8 @@ package com.ownk.deivid;
 
 import java.util.Scanner;
 
-public class Division {
-	public void Divi() {
+public class ProcesadorDivision {
+	public void division() {
 
 
 		int divi;

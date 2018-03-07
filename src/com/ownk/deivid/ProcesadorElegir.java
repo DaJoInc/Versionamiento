@@ -28,8 +28,8 @@ public class ProcesadorElegir {
 			break;
 			case 4: ;
 			System.out.print("Division \n");
-			Division divide = new Division();
-			divide.Divi();
+			ProcesadorDivision division = new ProcesadorDivision();
+			division.division();
 			break;
 			default: txt= "Invalido";
 			return ;
